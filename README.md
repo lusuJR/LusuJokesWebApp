@@ -65,7 +65,7 @@ Possible reasons for this include:
   <li>dotnet ef --version</li>
 </ul>
 
-<p>To resolve this issue, install the EF Core CLI tools (dotnet-ef) globally or locally, ensure your project includes the necessary EF Core packages, and try running the dotnet-ef command again. Let me know if you encounter any further issues!</p>
+<p>To resolve this issue, install the EF Core CLI tools (dotnet-ef) globally or locally, ensure your project includes the necessary EF Core packages, and try running the dotnet-ef command again.</p>
 
 
 
