@@ -1,14 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using DevoloperJokesApp.Models;
 
 namespace DevoloperJokesApp.Data.EntityConfiguration
 {
-    public class JokeConfiguration: IEntityTypeConfiguration<Joke>
+    public class JokeConfiguration : IEntityTypeConfiguration<Joke>
     {
         public void Configure(EntityTypeBuilder<Joke> builder)
         {
@@ -27,9 +23,7 @@ namespace DevoloperJokesApp.Data.EntityConfiguration
                 .HasForeignKey(x => x.CreatedById)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            
             builder.HasQueryFilter(x => !x.IsDeleted);
-        {
-        
+        }
     }
 }
