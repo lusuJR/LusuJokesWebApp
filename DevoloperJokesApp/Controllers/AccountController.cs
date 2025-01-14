@@ -11,22 +11,15 @@ namespace DevoloperJokesApp.Controllers
     [AllowAnonymous]
     public class AccountController(UserManager<User> userManager, SignInManager<User> signInManager) : Controller
     {
-        private readonly ILogger<AccountController> _logger;
+        private readonly UserManager<User> _userManager = userManager;
+        private readonly SignInManager<User> _signInManager = signInManager;
 
-        public AccountController(ILogger<AccountController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Login(string returnUrl)
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
-        }
+        
     }
 }
