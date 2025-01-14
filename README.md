@@ -1,1 +1,1 @@
-# LusuJokesWebApp
+# Lusu Jokes WebApp
