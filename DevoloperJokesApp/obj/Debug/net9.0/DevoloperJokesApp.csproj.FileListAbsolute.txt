@@ -1,0 +1,9 @@
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.csproj.AssemblyReference.cache
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.AssemblyInfoInputs.cache
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.AssemblyInfo.cs
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.csproj.CoreCompileInputs.cache
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.RazorAssemblyInfo.cache
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.RazorAssemblyInfo.cs
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.sourcelink.json

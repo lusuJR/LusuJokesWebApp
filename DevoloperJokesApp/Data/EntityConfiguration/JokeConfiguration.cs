@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ProgramJokesWebApp.Models;
+using DevoloperJokesApp.Models;
 
 namespace DevoloperJokesApp.Data.EntityConfiguration
 {
@@ -29,7 +29,7 @@ namespace DevoloperJokesApp.Data.EntityConfiguration
 
             
             builder.HasQueryFilter(x => !x.IsDeleted);
-    {
+        {
         
     }
 }
