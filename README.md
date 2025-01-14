@@ -50,6 +50,22 @@
 Note: Run the following command to create a new ASP.NET Core MVC project:
 dotnet new mvc -n MyMvcApp
 
+<h2 style="color:red">Error</h2>
+<p>Could not execute because the specified command or file was not found.
+Possible reasons for this include:
+  * You misspelled a built-in dotnet command.
+  * You intended to execute a .NET program, but dotnet-ef does not exist.
+  * You intended to run a global tool, but a dotnet-prefixed executable with this name could not be found on the PATH.</p>
+
+<h4>Steps to resolve the issue:</h4>
+<p>Install the Entity Framework Core CLI tools: To use dotnet-ef, you need to install the EF Core CLI tools if they are not already installed. You can install them globally by running the following command:</p>
+
+<ul>
+  <li>dotnet tool install --global dotnet-ef</li>
+  <li>dotnet ef --version</li>
+</ul>
+
+<p>To resolve this issue, install the EF Core CLI tools (dotnet-ef) globally or locally, ensure your project includes the necessary EF Core packages, and try running the dotnet-ef command again.</p>
 
 
 
