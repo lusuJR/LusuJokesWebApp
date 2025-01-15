@@ -1,4 +1,4 @@
-
+using System.ComponentModel.DataAnnotations;
 namespace DevoloperJokesApp.ViewModels
 {
     public class LoginViewModel

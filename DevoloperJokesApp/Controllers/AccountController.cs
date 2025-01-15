@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DevoloperJokesApp.Models;
-using DevoloperJokesApp.ViewModels;;
+using DevoloperJokesApp.ViewModels;
 using Microsoft.Extensions.Logging;
 
 namespace DevoloperJokesApp.Controllers
