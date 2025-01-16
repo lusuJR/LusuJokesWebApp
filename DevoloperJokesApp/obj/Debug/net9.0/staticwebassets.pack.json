@@ -5,6 +5,46 @@
       "PackagePath": "staticwebassets\\DevoloperJokesApp.mbs1fh1ae6.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\images\\bg-masthead.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-masthead.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\images\\bg-showcase-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-showcase-1.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\images\\bg-showcase-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-showcase-2.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\images\\bg-showcase-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-showcase-3.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\images\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\images\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\images\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
       "Id": "C:\\Projects\\LusuJokesWebApp\\DevoloperJokesApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

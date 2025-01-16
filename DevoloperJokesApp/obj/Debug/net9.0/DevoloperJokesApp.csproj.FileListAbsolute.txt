@@ -220,3 +220,6 @@ C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\refint\DevoloperJ
 C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.pdb
 C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\DevoloperJokesApp.genruntimeconfig.cache
 C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\ref\DevoloperJokesApp.dll
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\compressed\mutdm5mibu-90nsqryvln.gz
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\compressed\8aj7fojppm-6znzarx03j.gz
+C:\Projects\LusuJokesWebApp\DevoloperJokesApp\obj\Debug\net9.0\compressed\d9hcbtwxiw-22fxxb244o.gz
