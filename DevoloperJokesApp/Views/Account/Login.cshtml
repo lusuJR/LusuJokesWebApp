@@ -1,0 +1,37 @@
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    var error =ViewData["Error"] as string;
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-4">
+            <h1>@ViewData["Title"]</h1>
+            @if(!string.IsNullOrWhiteSpace(error))
+            {
+                <p class="text-danger">@error</p>
+            }
+            <form asp-action="Login" asp-controller="Account" class="mt-3">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" type="email" placeholder="Email Address" class="form-control">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input asp-for="Password" type="password" placeholder="Password" class="form-control">
+                    <span class="text-danger" asp-validation-for="Password"></span>
+                </div>
+                <div class="mb-3 form-check">
+                    <input asp-for="RememberMe" type="checkbox" class="form-check-input">
+                    <label asp-for="RememberMe" class="form-check-label">Remember Me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
