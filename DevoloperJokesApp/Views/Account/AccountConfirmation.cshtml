@@ -1,0 +1,19 @@
+
+@{
+    ViewData["Title"] = "Account Confirmation";
+    var email = ViewData["Email"] as string;
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-4">
+            <h1>@ViewData["Title"]</h1>
+            <p>Thank you for signing up. Please confirm your account by clicking on the link below: <br />
+                <a asp-action="AccountConfirmation" asp-asp-controller="Account" asp-route-email="@email" class="text-danger">
+                    Confirm your Account.
+                </a>
+             </p>
+        </div>
+    </div>
+</div>
