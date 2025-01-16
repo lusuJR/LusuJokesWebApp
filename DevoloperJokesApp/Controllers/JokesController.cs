@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using DevoloperJokesApp.Data;
 using DevoloperJokesApp.Models;
 using DevoloperJokesApp.ViewModels;
@@ -10,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
+
 
 namespace DevoloperJokesApp.Controllers
 {
